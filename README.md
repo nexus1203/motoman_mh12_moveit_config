@@ -7,6 +7,10 @@ Start Rviz with following command: (robot_ip is the ip of the DX200 controller)
 
 `roslaunch motoman_mh12_moveit_config moveit_planning_execution.launch robot_ip:=192.168.1.2 sim:=false`
 
+To run in simulation mode: 
+
+`roslaunch motoman_mh12_moveit_config moveit_planning_execution.launch sim:=true`
+
 To enable the robot run:
 
 `rosservice call /robot_enable`
