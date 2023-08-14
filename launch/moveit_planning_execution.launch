@@ -31,7 +31,7 @@
   <arg name="db_path" default="$(find motoman_mh12_moveit_config)/default_warehouse_mongo_db" />
 
   
-
+  <rosparam file="$(find motoman_mh12_moveit_config)/config/ruckig.yaml" command="load" />
   <!-- By default, hide joint_state_publisher GUI in "fake" controller_manager mode -->
 
   <arg name="use_gui" default="false" />
