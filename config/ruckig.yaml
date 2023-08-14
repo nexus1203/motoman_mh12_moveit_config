@@ -1,0 +1,13 @@
+ruckig:
+  joint_1_s:
+    jerk_limit: 40.0
+  joint_2_l:
+    jerk_limit: 40.0
+  joint_3_u:
+    jerk_limit: 40.0
+  joint_4_r:
+    jerk_limit: 40.0
+  joint_5_b:
+    jerk_limit: 40.0
+  joint_6_t:
+    jerk_limit: 40.0
